@@ -18,5 +18,7 @@ void loop() {
     Serial.print("Potentiometer analog value = ");
     Serial.print(Spg, 2);
     Serial.println(" V");
+
+    lastmillis = millis();
   }
 }
